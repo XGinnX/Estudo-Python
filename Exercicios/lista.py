@@ -18,8 +18,6 @@ elif nota_anual < 6 and nota_anual >= 5:
 else:
     print("Aluno Reprovado!")
 
-#Escreva um programa que resolva uma equação de segundo grau.   
-
 #Escreva um programa que ordene uma lista numérica com três elementos.   
 primeiro = int(input("Digite um numero:"))
 segundo = int(input("Digite um numero:"))
@@ -41,24 +39,6 @@ else:
         print(terceiro, "> ", primeiro, "> ", segundo)
     else:
         print(terceiro, "> ", segundo, "> ", primeiro)
-
-
-
-
-#Se primeiro for maior que o segundo
- #Se o segundo for maior que o terceiro
-  #1. Primeiro > segundo > terceiro
- #else 
-   # Se o primeiro for maior que o terceiro:
-   # 1. Primeiro > terceiro > segundo
-   # else
-   # terceiro > primeiro > segundo
-#else
-   #Se o primeiro for maior que o terceiro
-    #1. Segundo > primeiro > terceiro
-   #else
-   #se o segundo > que o terceiro
-   #else
 
 
 #Escreva um programa que receba dois números e um sinal, e faça a operação matemática definida pelo sinal. 
