@@ -22,8 +22,25 @@ if "limão" in frutas:
     print ("fruta está na lista")
 
 #remove item lista
-del frutas["limão"]
-print (frutas)
+frutas.remove("limão")
+print(frutas)
+
+#remove item lista por indice
+del frutas[2]
+print(frutas)
+
+#Criando lista vazia e adicionando valor
+mercado = []
+print(mercado)
+mercado.append("arroz")
+mercado.append("feijão")
+mercado.append("açucar")
+print(mercado)
+
+# Ordenação de lista
+lista = [2,55,1500,33,42,12,5,6,7,100,15,]
+
+lista.sort()
 
 #MATRIZ
 print('------------MATRIZ------------')
