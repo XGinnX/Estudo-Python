@@ -39,8 +39,22 @@ print(mercado)
 
 # Ordenação de lista
 lista = [2,55,1500,33,42,12,5,6,7,100,15,]
+# 1. Utilizando o sort
+lista.sort() 
+print(lista)
 
-lista.sort()
+#2. Utilizando o Sorted
+lista = sorted(lista) 
+
+print(lista)
+
+# Ordernar a lista de forma decrescente
+lista.sort(reverse=True) 
+print(lista)
+
+#2. Inverter lista
+lista.reverse() 
+print(lista)
 
 #MATRIZ
 print('------------MATRIZ------------')
