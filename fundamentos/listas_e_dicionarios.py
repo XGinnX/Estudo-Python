@@ -56,6 +56,26 @@ print(lista)
 lista.reverse() 
 print(lista)
 
+# Dicionários
+print('------------DICIONÁRIO------------')
+#Estrutura {Chave:Valor}
+dicionario = {"A":"AMOR","B":"BORBOLETA","C":"CORAÇÃO"}
+print(dicionario)
+
+# consultando dicionario
+print(dicionario["A"])
+
+#Passando pelo dicionario e exibe chave e valor
+#1. Forma
+for chave in dicionario:
+    print(chave+":"+dicionario[chave])
+#2. Item
+for elemento in dicionario.items():
+    print(elemento)
+# Passando pelos dicionarios e exibindo valores
+for elemento in dicionario.values():
+    print(elemento)
+
 #MATRIZ
 print('------------MATRIZ------------')
 # Criando uma matriz 3x3 inicializada com zeros
