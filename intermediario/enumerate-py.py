@@ -1,4 +1,6 @@
 #função Enumerate
+# Permite percorrer uma lista mantendo o controle do índice e do valor de cada elemento.
+
 
 #Descobrindo posições de maneira tradicional
 brinquedos = ["boneca","casinha", "carrinho", "boneco","bola"]

@@ -1,4 +1,5 @@
 # list comprehension
+# Oferece uma forma compacta e legível de criar listas em Python, com menos código do que usar loops convencionais.
 
 #Maneira tradicional caso necessite adicionar o quadrado de uma lista em outra
 x = [1,2,3,4,5]
