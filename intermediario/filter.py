@@ -42,7 +42,7 @@ for v in valor_dobrado:
 valor_quadrado = list(valor_dobrado)
 
 # Lambda
- # Cria funções anônimas de forma rápida e simples, geralmente usadas para funções de uma única expressão.
+# Cria funções anônimas de forma rápida e simples, geralmente usadas para funções de uma única expressão.
 
 valor_quadrado = map(lambda i:i**2,lista)
 print("----ELEVADO A 2 ------")
